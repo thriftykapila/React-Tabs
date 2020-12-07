@@ -12,7 +12,7 @@ https://9kmoj.csb.app/
 6. Custom Alerts
 
 ### Project Screenshots:
-![Screenshot] (./IphoneX-react-tabs.png?raw=true)
+![Screenshot] (/IphoneX-react-tabs.png?raw=true)
 
 #### Installation Guide:
 

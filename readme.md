@@ -11,9 +11,6 @@ https://9kmoj.csb.app/
 5. Responsive design.
 6. Custom Alerts
 
-### Project Screenshots:
-![Screenshot] (/IphoneX-react-tabs.png?raw=true)
-
 #### Installation Guide:
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  

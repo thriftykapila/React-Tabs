@@ -12,7 +12,7 @@ https://9kmoj.csb.app/
 6. Custom Alerts
 
 ### Project Screenshots:
-![Image 1] ()
+![Image 1] (https://github.com/thriftykapila/React-Tabs/blob/main-Thrifty/IphoneX-react-tabs.png?raw=true)
 
 #### Installation Guide:
 

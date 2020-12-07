@@ -1,7 +1,7 @@
 ## React Tabs
 
 #### Demo Link:
-`https://9kmoj.csb.app/`
+https://9kmoj.csb.app/
 
 #### Features:
 1. Add new tabs [max limit - 10]
@@ -10,6 +10,9 @@
 4. Drag and Drop the tabs
 5. Responsive design.
 6. Custom Alerts
+
+### Project Screenshots:
+![Image 1] ()
 
 #### Installation Guide:
 

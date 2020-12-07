@@ -1,0 +1,184 @@
+.tabWrapper {
+  display: flex;
+  justify-content: center;
+  width: 42rem;
+}
+
+.tab-title {
+  background-color: #ededed;
+  /* padding: 0.8rem 4rem; */
+  width: 9rem;
+  height: 2.5rem;
+  margin-bottom: 20px;
+  /* border-bottom: 2px solid #0099ff; */
+  display: inline-block;
+  color: #7a7a7a;
+}
+.tab-title-active {
+  color: #000;
+  margin-bottom: 17px;
+  /* border-bottom: 3px solid #0099ff; */
+  animation: drawBorder 1s ease-in-out forwards;
+  /* transition: all ease-in-out 0.2s; */
+}
+
+/* .tab-title:hover {
+  color: #000;
+  margin-bottom: 17px;
+  border-bottom: 3px solid #4BB543;
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  -o-transition: all 0.15s linear;
+  transition: all ease-in-out 0.2s;
+} */
+
+@keyframes drawBorder {
+  from {
+    margin-bottom: 17px;
+    border-bottom: 3px inset #ededed;
+  }
+  to {
+    margin-bottom: 17px;
+    border-bottom: 3px solid #0099ff;
+  }
+}
+
+.x-icon {
+  color: #7a7a7a;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: -1.8rem 8rem;
+  cursor: pointer;
+}
+
+.x-icon-disabled {
+  pointer-events: none;
+  cursor: not-allowed !important;
+}
+
+.x-icon-invisible {
+  color: #ededed;
+}
+
+.title-heading {
+  text-align: center;
+  /* margin-left: 3rem; */
+  cursor: pointer;
+  padding-top: 12px;
+}
+
+.plus-icon {
+  width: 1rem;
+  font-size: 1.6rem;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  border-left: 2px solid #7a7a7a29 !important;
+  display: block !important;
+  padding-top: 0.4rem;
+  height: 2.1rem;
+}
+
+.left-arrow-icon {
+  border-right: 2px solid #7a7a7a29 !important;
+  height: 1.75rem;
+  width: 1rem;
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  display: block !important;
+}
+
+.right-arrow-icon {
+  border-left: 2px solid #7a7a7a29 !important;
+  height: 1.75rem;
+  width: 1rem;
+  font-size: 1rem;
+  padding-top: 0.75rem;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+  display: block !important;
+}
+
+.scrollable {
+  /* justify-content: center;
+  max-width: 20rem; */
+  white-space: nowrap;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.alert-dialogue {
+  font-size: 1.5rem;
+  background-color: #41a4f4;
+  color: #fff;
+  display: flex;
+  padding: 1rem 1rem 0.5rem;
+  border-radius: 0.7rem;
+  flex-direction: column;
+  position: fixed;
+  opacity: 0.97;
+  border: 0.2rem solid #0474cf;
+  margin-top: -4.2rem;
+  margin-left: 30%;
+  text-align: center;
+}
+
+.btn-success {
+  padding: 0.5rem 1rem !important;
+  width: 5rem;
+  margin: 0.5rem 37%;
+  border-radius: 2rem;
+  color: #2a98f1;
+  font-weight: 700;
+  font-size: 1rem;
+  border: 0.2rem solid #0474cf;
+}
+
+.tab-content {
+  font-size: 2.8rem;
+  padding: 2rem;
+  margin: 2rem;
+  border: 3px dashed #7a7a7a29;
+}
+
+@media only screen and (max-width: 600px) {
+  .tabWrapper {
+    display: flex;
+    justify-content: center;
+    width: 22rem;
+  }
+  .tab-content {
+    font-size: 1.8rem;
+  }
+  .alert-dialogue {
+    font-size: 1.2rem;
+    margin-left: 7%;
+    width: 67%;
+    text-align: center;
+  }
+}
+
+.current {
+  background-color: #282c34;
+  color: #fff;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+/* (Optional) Apply a "closed-hand" cursor during drag operation. */
+.current:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}

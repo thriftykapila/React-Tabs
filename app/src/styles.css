@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid #7a7a7a29;
+}
+.mainHeading {
+  border-bottom: 2px solid #7a7a7a29;
+  font-size: 1.4rem;
+  padding: 1rem 0rem 1rem 2rem;
+  width: 97.7%;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainHeading {
+    width: 91.4%;
+  }
+}
+
+.tabsBox {
+  width: 100%;
+}

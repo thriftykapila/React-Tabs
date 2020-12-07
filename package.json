@@ -1,0 +1,29 @@
+{
+  "name": "react-tabs-thrifty",
+  "version": "1.0.0",
+  "description": "React Tabs component with cool features like dragging and adding new tabs, deleting old ones.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot"
+  },
+  "author": "Thrifty Kapila",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^3.6.0",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "^1.3.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
